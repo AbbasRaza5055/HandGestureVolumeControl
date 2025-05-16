@@ -1,5 +1,6 @@
 # HandGestureVolumeControl
-Hand Gesture Controlled Volume System using OpenCV, MediaPipe, and Pycaw for real-time volume adjustment with webcam input
+Hand Gesture Controlled Volume System using OpenCV, MediaPipe, and Pycaw for real-time volume adjustment with webcam input.
+
 
 ## ✨ Features
 
@@ -7,6 +8,7 @@ Hand Gesture Controlled Volume System using OpenCV, MediaPipe, and Pycaw for rea
 - Control system volume by changing the distance between your thumb and index finger.
 - Visual feedback: volume bar and percentage display.
 - Green dot indicator when fingers are close (mute position).
+- 
 
 ## 📁 Project Structure
 
@@ -15,6 +17,7 @@ Hand Gesture Controlled Volume System using OpenCV, MediaPipe, and Pycaw for rea
 ┣ 📜 HandTrackingModule.py # Custom module for hand detection and landmark tracking
 
 ┗ 📜 README.md # Project documentation
+
 
 ## 🛠️ Requirements
 
@@ -28,6 +31,7 @@ Hand Gesture Controlled Volume System using OpenCV, MediaPipe, and Pycaw for rea
 You can install the required libraries using pip:
 
 pip install opencv-python mediapipe numpy pycaw comtypes
+
 
 🚀 How to Run
 
@@ -43,6 +47,7 @@ python main.py
 
 4.Press q to exit the program.
 
+
 🧠 How It Works
 
 HandTrackingModule.py uses MediaPipe to detect hand landmarks in a webcam frame.
@@ -52,5 +57,6 @@ In main.py, the distance between landmarks 4 (thumb tip) and 8 (index finger tip
 This distance is mapped to a volume level using NumPy’s interp() function.
 
 Volume is controlled using Pycaw, which provides an interface to the Windows Core Audio API.
+
 
 Enjoy touch-free volume control! 🔊🖐️
