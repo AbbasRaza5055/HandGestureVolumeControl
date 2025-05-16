@@ -8,7 +8,7 @@ Hand Gesture Controlled Volume System using OpenCV, MediaPipe, and Pycaw for rea
 - Control system volume by changing the distance between your thumb and index finger.
 - Visual feedback: volume bar and percentage display.
 - Green dot indicator when fingers are close (mute position).
-- 
+  
 
 ## 📁 Project Structure
 
